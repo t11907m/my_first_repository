@@ -102,6 +102,8 @@ public:
     int height = param[3];
     //矩形
     cv::rectangle(Dst, cv::Rect(x, y, width, height), cv::Scalar(0, 255, 0), 2);
+   
+    /////メモ　　　　https://github.com/atinfinity/lab/wiki/OpenCVを使ったラベリング
     
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Update GUI Window
