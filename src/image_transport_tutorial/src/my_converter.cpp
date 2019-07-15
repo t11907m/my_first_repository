@@ -59,7 +59,7 @@ public:
     cv::Mat cent;
     
    //labeling
-    int nLab=cv::connectedComponentsWithStats(cv_ptr->image,LabelImg,stats,centroids);
+    int nLabels=cv::connectedComponentsWithStats(cv_ptr->image,LabelImg,stats,centroids);
     std::vector<cv::Vec3b> colors(nLabels);
     
     int M_Area=0;
